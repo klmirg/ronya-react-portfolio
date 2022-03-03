@@ -5,6 +5,7 @@ function About() {
     <section>
       <h1 id="about">About me</h1>
     </section>
+    
   );
 }
 

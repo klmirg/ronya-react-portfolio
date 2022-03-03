@@ -1,0 +1,13 @@
+img {
+  width: 30px;
+}
+
+.linkedinlogo {
+  width: 45px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  width: 50px;
+}

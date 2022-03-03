@@ -1,4 +1,5 @@
 import React from 'react';
+import "../Footer/Footer.css";
 
 function Footer () {
 
@@ -7,19 +8,19 @@ function Footer () {
       <ul>
         <li>
           <a href="tel:507.649.0822">
-          <img src="src/assets/images/phone-call.png" alt="Telephone Icon"/></a>
+          <img src={require("../../assets/images/phone-call.png")} alt="Telephone Icon"/></a>
         </li>
         <li>
           <a href="mailto:klmirg6@gmail.com">
-          <img src="src/assets/images/gmail.png" alt="Gmail Logo"/></a>
+          <img src={require("../../assets/images/gmail.png")} alt="Gmail Logo"/></a>
         </li>
         <li>
           <a href="https://github.com/klmirg">
-          <img src="src/assets/images/github.png" alt="GitHub logo"/></a>
+          <img src={require("../../assets/images/github.png")} alt="GitHub logo"/></a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/ronya-gettis-267b91220/">
-          <img src="assets/images/Linkedin_symbol_transparent.png" alt="Linkedin logo"/></a>
+          <img src={require("../../assets/images/Linkedin_symbol_transparent.png")} alt="Linkedin logo" class="linkedinlogo"/></a>
         </li>
       </ul>
     </div>

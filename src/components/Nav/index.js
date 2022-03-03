@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import About from 'About';
 // import Header from 'Header';
 
 function Nav() {
   return (
     <header>
       <h2> 
-        <a href="/">Ronya Gettis 
-        </a>  
+       Ronya Gettis   
       </h2>
       <nav>
         <ul>
           <li>
-            <a href='#about'>About</a>
+            <Link to={'/About'}>About</Link>
           </li>
           <li>
             <span>Contact</span>

@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Nav from './components/Nav'
+// import Nav from './components/Nav'
 import About from './components/About'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
-// import Header from './components/Header'
+import Header from './components/Header'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 
@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
     <div>
-      <Nav></Nav>
+      <Header></Header>
       {/* <About></About> */}
       {/* <Contact></Contact> */}
       <div>

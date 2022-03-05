@@ -1,0 +1,40 @@
+* {
+  font-family: Helvetica, sans-serif, Arial
+}
+
+ul li {
+  font-size: 20px;
+  padding: 25px;
+}
+
+header {
+  background-image: url("../../assets/images/header.png");
+  background-position: 50%;
+  padding-bottom: 10%;
+  margin-top: 0%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  padding-top: 2%;
+}
+
+.my-name {
+  background-color: black;
+  padding-bottom: 3%;
+  font-size: 2rem;
+  color: white;
+  margin-right: 20%;
+  text-align: right;
+  padding-right: 10%;
+  margin-top: 0%;
+  padding-top: 3%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  text-align: right;
+  padding-right: 4%;
+}

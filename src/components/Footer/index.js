@@ -4,7 +4,7 @@ import "../Footer/Footer.css";
 function Footer () {
 
   return (
-    <div>
+    <div className="footer">
       <ul>
         <li>
           <a href="tel:507.649.0822">

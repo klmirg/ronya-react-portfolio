@@ -1,12 +1,12 @@
-img {
+.footer img {
   width: 30px;
 }
 
-.linkedinlogo {
-  width: 45px;
+.linkedinlogo img {
+  width: 50px;
 }
 
-ul li {
+.footer ul li {
   list-style: none;
   display: inline-block;
   width: 50px;

@@ -6,7 +6,7 @@ import About from './components/About'
 import ContactForm from './pages/Contact'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Projects from './pages/Projects'
+import Portfolio from './pages/Portfolio'
 import Resume from './pages/Resume'
 
 
@@ -26,9 +26,9 @@ function App() {
       {/* <About></About> */}
       {/* <ContactForm></ContactForm> */}
       <div>
-        <Route exact path="/About" component={About} />
+        <Route exact path="/" component={About} />
         <Route exact path="/contact" component={ContactForm} />
-        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />
       </div>
       <Footer></Footer>

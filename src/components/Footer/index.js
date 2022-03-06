@@ -18,9 +18,9 @@ function Footer () {
           <a href="https://github.com/klmirg">
           <img src={require("../../assets/images/github.png")} alt="GitHub logo"/></a>
         </li>
-        <li>
+        <li className="linkedinlogo">
           <a href="https://www.linkedin.com/in/ronya-gettis-267b91220/">
-          <img src={require("../../assets/images/Linkedin_symbol_transparent.png")} alt="Linkedin logo" className="linkedinlogo"/></a>
+          <img src={require("../../assets/images/Linkedin_symbol_transparent.png")} alt="Linkedin logo"/></a>
         </li>
       </ul>
     </div>

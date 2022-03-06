@@ -51,3 +51,7 @@ header {
   padding-right: 4%;
  
 }
+
+.header a:active {
+  color:aquamarine
+}

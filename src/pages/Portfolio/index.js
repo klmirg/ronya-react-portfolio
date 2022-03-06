@@ -6,27 +6,45 @@ function Portfolio () {
 // const [currentProject, setCurrentProject] = useState(projects[0]);
 // const [projects] = useState([])
   return (
-   <div className="projects">
-     <ul className="projectlist">
-      {projects.map((project) => (
-       <li className="project" key={project.id}>
-           <img src={project.images} className="projectimg" alt={project.alt} />
-        <h3>{project.title}</h3>
-           <p>{project.text}</p>
-         <a href={project.deployedUrl}>
-           <button>Check it out here!</button>
-         </a>
-         <a href={project.githubUrl}>
-           <button>GitHub Repository</button>
-         </a>
-       </li>
-      ))}
-     </ul>
-   </div>
-  );
-}
-
-export default Portfolio;
+    <div className="grid">
+        {projects.map((project) => (
+          <div className="img-wrapper">
+            <img src={project.images} alt={project.alt} className={project.className}/>
+            <div className="content fade">
+              <h3>{project.title}</h3>
+              <a href={project.deployedUrl}><button>Check it out here!</button></a>
+              <br></br>
+              <br></br>
+              <a href={project.githubUrl}><button>GitHub Repository</button></a>
+          </div>
+        </div>
+        ))}
+    </div>
+    );
+  }
+  
+  export default Portfolio;
+  //  <div className="grid">
+  //    <div className="img-wrapper">
+  //     <ul className="projectlist">
+  //       {projects.map((project) => (
+  //       <li className="project" key={project.id}>
+  //           <img src={project.images} className="projectimg" alt={project.alt} />
+  //         <div className='content'>
+  //         <h3>{project.title}</h3>
+  //           <p>{project.text}</p>
+  //         <a href={project.deployedUrl}>
+  //           <button>Check it out here!</button>
+  //         </a> 
+  //          <a href={project.githubUrl}>
+  //           <button>GitHub Repository</button>
+  //         </a>
+  //         </div>
+  //       </li>
+  //       ))}
+  //     </ul>
+  //    </div>
+  //  </div>
 
 
 // return (

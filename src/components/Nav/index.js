@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import About from '../About';
+// import About from '../About';
 import '../Header/Header.css';
 // import Header from 'Header';
 

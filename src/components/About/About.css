@@ -1,4 +1,21 @@
 .myImage {
   max-width: 25%;
-  position: absolute;
+  max-height: 50%;
+  position: relative;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+
+#about {
+  /* position: absolute; */
+  text-align: left;
+}
+
+.about {
+  display: flex;
+}
+
+.about p {
+  font-size: 18px;
 }

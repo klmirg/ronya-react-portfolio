@@ -2,3 +2,8 @@
   display: block;
 } */
 
+.resume button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}

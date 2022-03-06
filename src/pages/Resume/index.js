@@ -1,18 +1,38 @@
 import React from 'react';
 import resume from '../../assets/resume/Ronya-Gettis-resume.pdf';
+import "../Resume/Resume.css";
 
 function Resume () {
 
-  const languages = ["JavaScript", "SQL", "HTML/CSS", "Express.js", "React", "Node.js"]
+  const technicalSkills = [
+    "JavaScript", 
+    "SQL", 
+    "HTML/CSS", 
+    "MERN", 
+    "MySQL", 
+    "NoSQL", 
+    "Bootstrap", 
+    "jQuery", 
+    "Inquirer", 
+    "Jest", 
+    "Sequelize", 
+    "Mongoose", 
+    "Handlebars", 
+    "Heroku", 
+    "Git", 
+    "JSON", 
+    "API's"
+  ]
+  
   return (
-    <div>
+    <div className="resume">
       <a href={resume}>
         <button>Check out my resume here!</button>
       </a>
-      <h4>Languages:</h4>
+      <h4>Technical Skills:</h4>
       <ul className='skills'>
-     {languages.map((language, i) => (
-       <li key={i}>{language}</li>
+     {technicalSkills.map((technicalSkill, i) => (
+       <li key={i}>{technicalSkill}</li>
      ))}
      </ul>
     </div>
@@ -20,12 +40,3 @@ function Resume () {
 }
 
 export default Resume;
-
-{/* <ul className="skills">
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML/CSS</li>
-        <li>Express.js</li>
-        <li>React</li>
-        <li>Node.js</li>
-      </ul> */}

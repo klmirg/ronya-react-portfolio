@@ -2,10 +2,26 @@
   max-width: 35%;
   /* max-height: 50%; */
   border: 2px solid black;
+  position: relative;
+  float: left;
+  margin-bottom: 5%;
 }
 
 .projects p {
   font-size: 18px;
+  position: relative;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.projects button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-left: 1%;
+  text-align: center;
+  position: relative;
+  justify-content: center;
 }
 /* .project1 {
   display: flex;
@@ -15,7 +31,16 @@
   display: block;
 } */
 
-/* .projects {
+.projects li {
  display: inline-block;
+}
+
+.projects h3 {
+  text-align: center;
+
+}
+
+/* .projects p {
+  text-align: center;
 } */
 

@@ -10,8 +10,8 @@ function Portfolio () {
      <ul className="projectlist">
       {projects.map((project) => (
        <li className="project" key={project.id}>
-         <h3>{project.title}</h3>
            <img src={project.images} className="projectimg" alt={project.alt} />
+        <h3>{project.title}</h3>
            <p>{project.text}</p>
          <a href={project.deployedUrl}>
            <button>Check it out here!</button>

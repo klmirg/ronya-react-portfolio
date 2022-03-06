@@ -6,13 +6,18 @@ function Portfolio () {
 // const [currentProject, setCurrentProject] = useState(projects[0]);
 // const [projects] = useState([])
   return (
-   <div>
-     
-     {projects.map((project, i) => (
-       <li className="projects" {`${projects.name}`}>
-
+   <div className="projects">
+     <ul className="projectlist">
+      {projects.map((project, i) => (
+       <li className="project" key={project.id}>
+         <h3>{project.name}</h3>
+         <a href={project.deployedUrl}>
+           <img src={require(project.images)} className="projectimg" alt={project.alt} />
+           <p>{project.text}</p>
+         </a>
        </li>
-     ))}
+      ))}
+     </ul>
    </div>
   );
 }

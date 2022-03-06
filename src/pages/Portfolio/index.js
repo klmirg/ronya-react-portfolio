@@ -8,7 +8,7 @@ function Portfolio () {
   return (
    <div className="projects">
      <ul className="projectlist">
-      {projects.map((project, i) => (
+      {projects.map((project) => (
        <li className="project" key={project.id}>
          <h3>{project.title}</h3>
            <img src={project.images} className="projectimg" alt={project.alt} />

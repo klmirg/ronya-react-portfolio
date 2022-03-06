@@ -1,9 +1,22 @@
-/* .skills li {
-  display: block;
-} */
+.skills li {
+  font-size: 20px;
+  line-height: 2rem;
+}
 
 .resume button {
   background-color: black;
   color: white;
-  padding: 5px;
+  padding: 10px;
+  margin-top: 3%;
+  margin-left: 3%;
 }
+
+.resume {
+  text-align: center;
+}
+
+.resume h4 {
+  margin-left: 3%;
+  font-size: 24px;
+}
+

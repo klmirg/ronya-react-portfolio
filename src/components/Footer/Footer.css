@@ -10,13 +10,13 @@
   list-style: none;
   display: inline-block;
   width: 10%;
-  margin-bottom: 0%;
+  /* margin-bottom: 0%; */
 }
 
 .footer {
-  margin-top: 30%;
+  /* margin-top: 30%; */
   text-align: center;
-  /* position: relative;
-  float:inline-end; */
+  position: relative;
+  /* float:inline-end; */
   /* padding-top: 50%; */
 }

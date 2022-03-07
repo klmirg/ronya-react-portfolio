@@ -73,4 +73,18 @@
     margin-left: 90px;
     margin-bottom: 10px;
   }
+
+  .content.fade h3 {
+    font-size: 18px;
+    margin-right: 70px;
+  }
+
+  .content.fade button {
+    margin-right: 70px;
+    margin-bottom: 0px;
+  }
+
+  .img-wrapper > .content {
+    line-height: 1.5rem;
+  }
 }

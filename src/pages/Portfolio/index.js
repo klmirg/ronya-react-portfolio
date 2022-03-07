@@ -10,7 +10,7 @@ function Portfolio () {
         {projects.map((project) => (
           <div className="img-wrapper">
             <img src={project.images} alt={project.alt} className={project.className}/>
-            <div className="content fade">
+            <div className="content fade" key={project.id}>
               <h3>{project.title}</h3>
               <a href={project.deployedUrl}><button>Check it out here!</button></a>
               <br></br>

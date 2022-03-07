@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ronya-react-portfolio/static/css/main.26057e7a.css",
-    "main.js": "/ronya-react-portfolio/static/js/main.06461813.js",
+    "main.js": "/ronya-react-portfolio/static/js/main.e13db5a6.js",
     "static/js/787.44e811a4.chunk.js": "/ronya-react-portfolio/static/js/787.44e811a4.chunk.js",
     "static/media/Portfolioscreenshot22.png": "/ronya-react-portfolio/static/media/Portfolioscreenshot22.3c33b746f894ba239a57.png",
     "static/media/header.png": "/ronya-react-portfolio/static/media/header.20030f44e1e36b6816cb.png",
@@ -17,11 +17,11 @@
     "static/media/gmail.png": "/ronya-react-portfolio/static/media/gmail.23d2a9b0f4cc2cae2ed1.png",
     "index.html": "/ronya-react-portfolio/index.html",
     "main.26057e7a.css.map": "/ronya-react-portfolio/static/css/main.26057e7a.css.map",
-    "main.06461813.js.map": "/ronya-react-portfolio/static/js/main.06461813.js.map",
+    "main.e13db5a6.js.map": "/ronya-react-portfolio/static/js/main.e13db5a6.js.map",
     "787.44e811a4.chunk.js.map": "/ronya-react-portfolio/static/js/787.44e811a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26057e7a.css",
-    "static/js/main.06461813.js"
+    "static/js/main.e13db5a6.js"
   ]
 }

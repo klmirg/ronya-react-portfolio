@@ -27,7 +27,7 @@ function Resume () {
   return (
     <div className="resume">
       <a href={resume}>
-        <button>Check out my resume here!</button>
+        <button>Take a look at my resume here!</button>
       </a>
       <h4>Technical Skills:</h4>
       <ul className='skills'>

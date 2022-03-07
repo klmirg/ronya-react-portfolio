@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import About from '../About';
 import '../Header/Header.css';
 
 function Nav() {
@@ -8,7 +7,7 @@ function Nav() {
     <header>
       <nav>
         <ul className='header'>
-          <li>
+          <li className="navActive">
             <Link to={'/'}>About</Link>
           </li>
           <li>

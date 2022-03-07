@@ -70,54 +70,7 @@
   }
 
   .img-wrapper {
-    margin-left: 60px;
+    margin-left: 90px;
     margin-bottom: 10px;
   }
 }
-/* .projects img {
-  max-width: 35%;
-  border: 2px solid black;
-  position: relative;
-  float: left;
-  margin-bottom: 5%;
-} */
-
-/* .projects p {
-  font-size: 18px;
-  position: relative;
-  text-align: center;
-  line-height: 2rem;
-  margin-left: 350px;
-  padding-left: 100px;
-} */
-
-/* .projects button {
-  background-color: black;
-  color: white;
-  padding: 5px;
-  margin-left: 14%;
-  text-align: center;
-  position: relative;
-  justify-content: center;
-} */
-/* .project1 {
-  display: flex;
-  font-size: 12px;
-} */
-/* .projectlist ul li {
-  display: block;
-} */
-
-/* .projects li {
- display: inline-block;
-}
-
-.projects h3 {
-  text-align: center;
-
-} */
-
-/* .projects p {
-  text-align: center;
-} */
-

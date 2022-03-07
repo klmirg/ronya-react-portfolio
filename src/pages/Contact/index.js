@@ -28,12 +28,12 @@ function ContactForm () {
     setFormState({...formState, [e.target.name]: e.target.value });
     }
   }
-  // console.log(formState)
 
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
   }
+  
   return (
     <section className="contact-form">
       <h2>Contact me</h2>

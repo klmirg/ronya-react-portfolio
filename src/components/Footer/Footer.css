@@ -10,15 +10,12 @@
   list-style: none;
   display: inline-block;
   width: 10%;
-  /* margin-bottom: 0%; */
 }
 
 .footer {
-  /* margin-top: 30%; */
   text-align: center;
   position: relative;
-  /* float:inline-end; */
-  /* padding-top: 50%; */
+  bottom: 0;
 }
 
 @media screen and (max-width: 575px) {

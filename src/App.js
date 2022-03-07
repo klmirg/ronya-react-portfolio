@@ -16,8 +16,7 @@ function App() {
     <div>
       <Header></Header>
       <div>
-        <About></About>
-        {/* <Route exact path="/ronya-react-portfolio" component={About} /> */}
+        <Route exact path="/ronya-react-portfolio" component={About} />
         <Route exact path="/contact" component={ContactForm} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />

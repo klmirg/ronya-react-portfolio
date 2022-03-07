@@ -8,7 +8,7 @@ function Nav() {
       <nav>
         <ul className='header'>
           <li className="navActive">
-            <Link to={'/'}>About</Link>
+            <Link to={'/ronya-react-portfolio'}>About</Link>
           </li>
           <li>
             <Link to={'Contact'}>Contact</Link>

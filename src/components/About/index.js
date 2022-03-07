@@ -4,7 +4,9 @@ import "../About/About.css";
 function About() {
   return (
     <section className='about'>
-      <img className="myImage" src={require(`../../assets/images/ImageOfRonya.jpg`)} alt="Ronya Gettis by a body of water" />
+      <div className="container">
+        <img className="myImage" src={require(`../../assets/images/ImageOfRonya.jpg`)} alt="Ronya Gettis by a body of water" />
+      </div>
       <p id="about"><br></br>Hi! My name is Ronya Gettis, I am a recent graduate of the University of Minnesota Coding Bootcamp where I earned 
       a certificate of completion. I am aspiring to become a full stack web developer. I find programming languages and what they can 
       accomplish to be absolutely fascinating. <br></br><br></br>I come from a background in customer service, with 15 years of experience working in restaurants,

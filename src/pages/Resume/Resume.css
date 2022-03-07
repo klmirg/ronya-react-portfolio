@@ -13,6 +13,7 @@
 
 .resume {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .resume h4 {
@@ -20,3 +21,13 @@
   font-size: 24px;
 }
 
+.resume button:hover {
+  background-color: gray;
+  cursor: inherit;
+}
+
+@media screen and (max-width: 575px) {
+  .skills li {
+    margin-right: 30px;
+  }
+}

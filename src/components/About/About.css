@@ -1,10 +1,16 @@
 .myImage {
-  max-width: 25%;
-  max-height: 50%;
-  position: relative;
-  float: right;
+  max-width: 200px;
+  min-width: 200px;
+  max-height: 500px;
+  min-height: 50px;
+  float: left;
+  /* position: relative; */
   border-radius: 10px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+
+.container {
+  float: left;
 }
 
 #about {
@@ -17,8 +23,39 @@
 
 .about {
   display: flex;
+  margin-bottom: 75px;
 }
 
 .about p {
   font-size: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .myImage {
+    max-height: 300px;
+    min-width: 200px;
+    float: left;
+    shape-outside: square(50%);
+  }
+
+  .about p {
+    font-size: 13px;
+    overflow: visible;
+
+  }
+
+  .container {
+    float: left;
+  }
+  /* .about {
+    display: ;
+  } */
+  #about {
+    line-height: 1rem;
+    
+  }
+
+  .about {
+    margin-bottom: 20px;
+  }
 }

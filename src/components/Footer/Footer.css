@@ -20,3 +20,10 @@
   /* float:inline-end; */
   /* padding-top: 50%; */
 }
+
+@media screen and (max-width: 575px) {
+  .footer ul li {
+    margin-left: 0px;
+    margin-right: 35px;
+  }
+}

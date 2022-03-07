@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ronya-react-portfolio/static/css/main.26057e7a.css",
+    "main.js": "/ronya-react-portfolio/static/js/main.06461813.js",
+    "static/js/787.44e811a4.chunk.js": "/ronya-react-portfolio/static/js/787.44e811a4.chunk.js",
+    "static/media/Portfolioscreenshot22.png": "/ronya-react-portfolio/static/media/Portfolioscreenshot22.3c33b746f894ba239a57.png",
+    "static/media/header.png": "/ronya-react-portfolio/static/media/header.20030f44e1e36b6816cb.png",
+    "static/media/buzzstockscreenshot.png": "/ronya-react-portfolio/static/media/buzzstockscreenshot.35021a5c0826a8b354b9.png",
+    "static/media/weatherdashboard.png": "/ronya-react-portfolio/static/media/weatherdashboard.a5135bc031626fd15b0c.png",
+    "static/media/BookShelf-screenshot.png": "/ronya-react-portfolio/static/media/BookShelf-screenshot.104bc4bfac358cd94099.png",
+    "static/media/Ronya-Gettis-resume.pdf": "/ronya-react-portfolio/static/media/Ronya-Gettis-resume.a9b25181735e08c88bc4.pdf",
+    "static/media/BudgetTrackerScreenshot.png": "/ronya-react-portfolio/static/media/BudgetTrackerScreenshot.007d979026529ed947cf.png",
+    "static/media/The-Tech-Blog-screenshot.png": "/ronya-react-portfolio/static/media/The-Tech-Blog-screenshot.5d224cb21a4af8ee167a.png",
+    "static/media/ImageOfRonya.jpg": "/ronya-react-portfolio/static/media/ImageOfRonya.d4501283c2ccb1442d85.jpg",
+    "static/media/github.png": "/ronya-react-portfolio/static/media/github.d3263084234dc705b2ae.png",
+    "static/media/phone-call.png": "/ronya-react-portfolio/static/media/phone-call.8f0be3fbd59758ddbadb.png",
+    "static/media/gmail.png": "/ronya-react-portfolio/static/media/gmail.23d2a9b0f4cc2cae2ed1.png",
+    "index.html": "/ronya-react-portfolio/index.html",
+    "main.26057e7a.css.map": "/ronya-react-portfolio/static/css/main.26057e7a.css.map",
+    "main.06461813.js.map": "/ronya-react-portfolio/static/js/main.06461813.js.map",
+    "787.44e811a4.chunk.js.map": "/ronya-react-portfolio/static/js/787.44e811a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26057e7a.css",
+    "static/js/main.06461813.js"
+  ]
+}

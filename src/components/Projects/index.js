@@ -1,9 +1,9 @@
 import bookShelfImg from "../../assets/images/BookShelf-screenshot.png";
 import buzzStockImg from "../../assets/images/buzzstockscreenshot.png";
-import weatherDashboardImg from "../../assets/images/weatherdashboard.png";
 import budgetTrackerImg from "../../assets/images/BudgetTrackerScreenshot.png";
 import theTechBlogImg from "../../assets/images/The-Tech-Blog-screenshot.png";
 import myOriginalPortfolio from "../../assets/images/Portfolioscreenshot22.png";
+import DinderScreenshotImg from "../../assets/images/DinderScreenshot.png";
 
 const projects = [
   {
@@ -18,6 +18,16 @@ const projects = [
   },
   {
     "id": 2,
+    "images": DinderScreenshotImg,
+    "alt": "Screenshot of the Dinder app hoomepage",
+    "title": "Dinder",
+    "className": "blur",
+    // "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores aliquam maxime, iusto dolore quisquam molestiae velit in voluptatem necessitatibus illum quam qui cupiditate veniam! Assumenda sit nemo quidem illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nihil ullam non nemo, ad eum voluptatem neque illum libero corporis. Corporis ipsam maiores saepe exercitationem corrupti sit adipisci quo minima?",
+    "deployedUrl": "http://dinder-dog.herokuapp.com/",
+    "githubUrl": "https://github.com/klmirg/doggy-days"
+  },
+  {
+    "id": 3,
     "images": buzzStockImg,
     "alt": "Screenshot of BuzzStock after searching for a stock",
     "title": "BuzzStock",
@@ -25,16 +35,6 @@ const projects = [
     // "text": "This was my first group project in the bootcamp. It was inspired by my group members interest in stocks. We wanted to create an app where you can search a ticker and get the most recent information displayed. As well as news articles about that particular stock item. It was made entirely with front end technologies. So there is a lot of room for future development as we have been broadening our skills.",
     "deployedUrl": "https://tavianjd.github.io/BuzzStock-Group-Project/",
     "githubUrl": "https://github.com/klmirg/BuzzStock-Group-Project"
-  },
-  {
-    "id": 3,
-    "images": weatherDashboardImg,
-    "alt": "Screenshot of Weather Dashboard after searching 2 cities",
-    "title": "Weather Dashboard",
-    "className": "blur",
-    // "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores aliquam maxime, iusto dolore quisquam molestiae velit in voluptatem necessitatibus illum quam qui cupiditate veniam! Assumenda sit nemo quidem illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nihil ullam non nemo, ad eum voluptatem neque illum libero corporis. Corporis ipsam maiores saepe exercitationem corrupti sit adipisci quo minima?",
-    "deployedUrl": "https://klmirg.github.io/Weather-dashboard/",
-    "githubUrl": "https://github.com/klmirg/Weather-dashboard"
   },
   {
     "id": 4,

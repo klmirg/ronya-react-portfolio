@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/ronya-react-portfolio/static/css/main.9a3b45eb.css",
-    "main.js": "/ronya-react-portfolio/static/js/main.5ff2cc39.js",
+    "main.js": "/ronya-react-portfolio/static/js/main.ea4ae3fc.js",
     "static/js/787.44e811a4.chunk.js": "/ronya-react-portfolio/static/js/787.44e811a4.chunk.js",
+    "static/media/DinderScreenshot.png": "/ronya-react-portfolio/static/media/DinderScreenshot.82179edfcf788293e975.png",
     "static/media/Portfolioscreenshot22.png": "/ronya-react-portfolio/static/media/Portfolioscreenshot22.e458acbd49b0042f4562.png",
     "static/media/buzzstockscreenshot.png": "/ronya-react-portfolio/static/media/buzzstockscreenshot.61599fd69444e072a18e.png",
     "static/media/header.png": "/ronya-react-portfolio/static/media/header.b6b882af42e33d6ce34f.png",
     "static/media/Ronya-Gettis-resume.pdf": "/ronya-react-portfolio/static/media/Ronya-Gettis-resume.a9b25181735e08c88bc4.pdf",
     "static/media/BookShelf-screenshot.png": "/ronya-react-portfolio/static/media/BookShelf-screenshot.6f13b96e5eb447304629.png",
     "static/media/ImageOfRonya.jpg": "/ronya-react-portfolio/static/media/ImageOfRonya.f3687fcc1149fb94a442.jpg",
-    "static/media/weatherdashboard.png": "/ronya-react-portfolio/static/media/weatherdashboard.9ed0dbbda1a6f938a301.png",
     "static/media/BudgetTrackerScreenshot.png": "/ronya-react-portfolio/static/media/BudgetTrackerScreenshot.e304b0de5ec19fd6f368.png",
     "static/media/The-Tech-Blog-screenshot.png": "/ronya-react-portfolio/static/media/The-Tech-Blog-screenshot.b3c772787f7c3477ee16.png",
     "index.html": "/ronya-react-portfolio/index.html",
     "main.9a3b45eb.css.map": "/ronya-react-portfolio/static/css/main.9a3b45eb.css.map",
-    "main.5ff2cc39.js.map": "/ronya-react-portfolio/static/js/main.5ff2cc39.js.map",
+    "main.ea4ae3fc.js.map": "/ronya-react-portfolio/static/js/main.ea4ae3fc.js.map",
     "787.44e811a4.chunk.js.map": "/ronya-react-portfolio/static/js/787.44e811a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a3b45eb.css",
-    "static/js/main.5ff2cc39.js"
+    "static/js/main.ea4ae3fc.js"
   ]
 }

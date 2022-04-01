@@ -19,7 +19,7 @@ const projects = [
   {
     "id": 2,
     "images": DinderScreenshotImg,
-    "alt": "Screenshot of the Dinder app hoomepage",
+    "alt": "Screenshot of the Dinder app homepage",
     "title": "Dinder",
     "className": "blur",
     // "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores aliquam maxime, iusto dolore quisquam molestiae velit in voluptatem necessitatibus illum quam qui cupiditate veniam! Assumenda sit nemo quidem illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nihil ullam non nemo, ad eum voluptatem neque illum libero corporis. Corporis ipsam maiores saepe exercitationem corrupti sit adipisci quo minima?",
